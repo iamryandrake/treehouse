@@ -13,3 +13,59 @@
 JavaScript statements end in a semicolon.
 
 ```document``` represents the current web page.
+
+Chrome Console Keyboard Shortcuts
+
+Windows: Ctrl + Shift + J
+Mac: Cmd + Option + J
+
+Firefox Console Keyboard Shortcuts
+
+Windows: Ctrl + Shift + K
+Mac: Cmd + Option + K
+
+Safari Console Keyboard Shortcuts
+
+Cmd + Option + C
+
+#### Storing and Tracking Information With Variables
+
+Think of variables like a box. You can put something in the box, look inside the box, empty the box, and then add something new again to the box. While the contents of the box changes, it's still always the same box.
+
+Each variable (box) has it's own name to identify itself.
+
+```var``` is short for 'variable' and it creates the box.
+
+You can create an empty variable: ```var score;```
+
+Or, using the '=' sign, you can insert a value to the variable: ```var score = 0;```. This assigns the value to the variable.
+
+You only use the ```var``` keyword when you first create your variable. Moving forth, you can reassign values to that variable as you please.
+
+JavaScript Reserved Words (Which you can't use for variable names):
+
+abstract	arguments	boolean	break	byte
+case	catch	char	class*	const
+continue	debugger	default	delete	do
+double	else	enum*	eval	export*
+extends*	false	final	finally	float
+for	function	goto	if	implements
+import*	in	instanceof	int	interface
+let	long	native	new	null
+package	private	protected	public	return
+short	static	super*	switch	synchronized
+this	throw	throws	transient	true
+try	typeof	var	void	volatile
+while	with	yield
+
+Variable names cannot start with a number. Variable names can only contain letters, numbers, $ sign and underscores.
+
+Typical JavaScript naming convention for variable names follow two patterns:
+```price_per_unit```, using an underscore to link the words,
+or ```pricePerUnit``` using camel case.
+
+We call the information we put in a variable a ```value```.
+
+```var name = prompt('What is your name?');```
+
+```Prompt()``` will allow you to capture data entered by a user on your site.
