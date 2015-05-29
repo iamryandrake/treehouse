@@ -69,3 +69,29 @@ We call the information we put in a variable a ```value```.
 ```var name = prompt('What is your name?');```
 
 ```Prompt()``` will allow you to capture data entered by a user on your site.
+
+Combining strings together is called concatenation.
+
+```
+var name = prompt("What is your name?");
+var greeting = "Hello " + name; // concatenation
+alert(greeting);
+```
+
+```message.length```
+
+message - object
+length - property
+
+You can access the property of an object using the ```.```.
+
+Just like a variable, a property value is dynamic and can change.
+
+```string.toLowerCase()```
+
+The parentheses at the end just indicate that this is a method, and the command that can be performed on the string.
+
+Objects
+- Examples: a string, the document, the browser console
+- Objects have properties, such as the length of the string
+- Objects have methods, which are actions the object can perform
