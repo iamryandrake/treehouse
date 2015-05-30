@@ -95,3 +95,26 @@ Objects
 - Examples: a string, the document, the browser console
 - Objects have properties, such as the length of the string
 - Objects have methods, which are actions the object can perform
+
+
+#### Working With numbers
+
+Numbers can be integers (1, -99, 0), floating point numbers (3.14, -0.9) or
+scientific notation (9e-6).
+
+```parseInt(string)``` will convert a string to integer numbers.
+
+```parseFloat(string)``` will convert a string to floating point number.
+
+```
+var num = 9.24;
+parseInt(num); // returns 9
+parseFloat(num); // returns 9.24
+```
+Math.ceil(x)
+- Returns the smallest integer greater than or equal to a number.
+
+Math.floor(x)
+- Returns the largest integer less than or equal to a number.
+
+More here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
