@@ -131,3 +131,20 @@ if (answer.toUpperCase() === 'RUBY') {
   document.write("<p>Oops, that's not the answer I'm after!</p>");
 }
 ```
+
+> - greater than operator
+```(3 > 2); // returns false```
+>= - greater than or equal to operator
+```(100 >= 100); // returns true```
+< - less than operator
+```(3 < 2); // returns true```
+<= - less than or equal to operator
+```(100 <= 100); // returns true```
+== - equal to
+```("3" == 3); // returns true```
+=== - strict equal to
+```("3" === 3); // returns false```
+!= - does not equal
+```("3" != 3); // returns false```
+!== - strict does not equal
+```("3" == 3); // returns true```
