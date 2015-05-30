@@ -97,7 +97,7 @@ Objects
 - Objects have methods, which are actions the object can perform
 
 
-#### Working With numbers
+#### Working With Numbers
 
 Numbers can be integers (1, -99, 0), floating point numbers (3.14, -0.9) or
 scientific notation (9e-6).
@@ -118,3 +118,16 @@ Math.floor(x)
 - Returns the largest integer less than or equal to a number.
 
 More here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+
+#### Making Decisions With Conditional Statements
+
+If/else statement can be seen below.
+
+```
+var answer = prompt('What programming language is the name of a gem?');
+if (answer.toUpperCase() === 'RUBY') {
+  document.write("<p>That's correct!</p>");
+} else {
+  document.write("<p>Oops, that's not the answer I'm after!</p>");
+}
+```
