@@ -148,3 +148,9 @@ if (answer.toUpperCase() === 'RUBY') {
 ```("3" != 3); // returns false```
 !== - strict does not equal
 ```("3" == 3); // returns true```
+
+Boolean values are either ```true``` or ```false```.
+
+&& - and operator
+
+|| - or operator
