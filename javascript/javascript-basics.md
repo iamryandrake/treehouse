@@ -1,7 +1,7 @@
 # JavaScript Basics
 ##### Course Link: http://teamtreehouse.com/library/javascript-basics
 ##### Start Date: 29 May 2015
-##### End Date: 
+##### End Date:
 
 <a href="http://referrals.trhou.se/rdrakey" target="_blank">
 <img src="https://static.teamtreehouse.com/assets/content/referral-badge-grn.png" style="width:30%;height:30%;"/>
@@ -154,3 +154,35 @@ Boolean values are either ```true``` or ```false```.
 && - and operator
 
 || - or operator
+
+#### Creating Reusable Code With Functions
+
+Start by declaring the function. Can name functions whatever you like, but
+adhere to same rules as variable names.
+
+```
+function goToCoffeeShop() {
+  alert('Espresso is on the way') // code you put here runs every time the function is called
+} // don't need a semi-colon to end the function
+```
+
+To call a function, you simply write the name of the function followed by parentheses and a semi-colon.
+
+```
+goToCoffeeShop();
+```
+
+Whenever you see parentheses following a name, you know you're dealing with a
+function.
+
+Function expressions are written slightly differently, and are finished with a semi-colon:
+
+```
+var goToCoffeeShop = function () {
+  alert('Espresso is on the way') // code you put here runs every time the function is called
+}; // semi-colon needed for function expressions, also known as anonymous functions
+```
+
+You can then call the function in the same way:
+
+```goToCoffeeShop();```
