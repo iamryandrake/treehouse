@@ -26,6 +26,12 @@ your layer is in relation to other layers.
 Zoom in: Command and +
 Zoom Out: Command and -
 100% Zoom: Command and 0
+100% Zoom Out: Command and 1
 
 To create a text style, select 'Create new text style' option from the Inspector
 when you have a text layer selected.
+
+Create a slice by hitting the 'S' key. This will allow you to export the contents within the selected
+slice.
+
+Click 'Export Group Contents Only' option in Inspector  to remove background and only include contents.
