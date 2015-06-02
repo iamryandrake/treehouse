@@ -186,3 +186,47 @@ var goToCoffeeShop = function () {
 You can then call the function in the same way:
 
 ```goToCoffeeShop();```
+
+To return a value from a function, you use the ```return``` keyword. When the JavaScript
+interpreter sees the ```return``` keyword, it leaves the function and returns the value
+following the ```return``` keyword:
+
+```
+function goToCoffeeShop() {
+  return 'Espresso is on the way'; // code you put here runs every time the function is called
+}
+```
+Then:
+
+```alert(goToCoffeeShop()); // Prints 'Espresso is on the way'```
+
+Another example:
+```
+function getRandomNumber() {
+  var randomNumber = Math.floor( Math.random() * 6 ) + 1;  
+  return randomNumber;
+}
+```
+Then you can use it in a myriad of ways:
+
+```
+alert(getRandomNumber());
+console.log(getRandomNumber());
+var dieRoll = getRandomNumber();
+```
+
+Note: Because the ```return``` statement exits the function, it should be the last thing
+in a function.
+
+Example:
+
+```
+function noAlert() {
+  return 5;
+  alert('This won't appear'); // This won't run, as function will exit when it sees return keyword
+}
+
+noAlert();
+alert('This will appear!');
+
+```
