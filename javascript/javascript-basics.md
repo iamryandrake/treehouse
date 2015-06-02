@@ -216,7 +216,7 @@ var dieRoll = getRandomNumber();
 ```
 
 Note: Because the ```return``` statement exits the function, it should be the last thing
-in a function.
+in a function. You can have more than one return statement in a function, but only one ever runs. Usually you'll find multiple return statements within different branches of conditional statements.
 
 Example:
 
