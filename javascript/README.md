@@ -8,12 +8,12 @@ I look forward to hearing from you! I hope that you don't mind that whilst my ma
 that my time spent on my resume on my website more than makes up for it!
 
 <blockquote>
-*"Dare to be different!"*
+<p>"Dare to be different!"</p>
 </blockquote>
 
 Kind regards,
 
-**Ryan Drake**
+*Ryan Drake*
 
 **Email:** ryan@ryandrake.com
 
